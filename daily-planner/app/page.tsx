@@ -83,7 +83,7 @@ export default async function Index() {
             {' '}
             <Select>
               <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="Theme" />
+                <SelectValue placeholder="Select" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="happy">Happy</SelectItem>
