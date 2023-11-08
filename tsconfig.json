@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@daily-planner/ui-components":["libs/ui-components/src/index.ts"],
+        "@daily-planner/ui-components/*":["libs/ui-components/src/*"]
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+  "name": "daily-planner-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "daily-planner-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/playwright:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/daily-planner-e2e"],
+      "options": {
+        "config": "daily-planner-e2e/playwright.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["daily-planner-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "implicitDependencies": ["daily-planner"]
+}

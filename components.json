@@ -1,0 +1,15 @@
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "new-york",
+    "rsc": false,
+    "tailwind": {
+        "config": "daily-planner/tailwind.config.js",
+        "css": "daily-planner/global.css",
+        "baseColor": "stone",
+        "cssVariables": true
+    },
+    "aliases": {
+        "components": "@daily-planner/ui-components/components",
+        "utils": "@daily-planner/ui-components/utils"
+    }
+}
